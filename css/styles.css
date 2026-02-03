@@ -1,4 +1,6 @@
-
+* {
+    box-sizing: border-box;
+}
 
 .bakgrund {
     min-height: 100vh;
@@ -13,57 +15,129 @@
     gap: 20px;
 }
 
-.kolumn-vanster {
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-
-}
-
+.kolumn-vanster,
 .kolumn-hoger {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.ruta-1 {
+.box { 
     background: #F48C06;
     height: 160px;
     width: 468px;
     border-radius: 8px;
 }
 
-.ruta-2 {
-    background: #F48C06;
-    height: 160px;
-    width: 468px;
-    border-radius: 8px;
+.ruta {
+    background: #9D0208;
+    border-radius: 4px;
 }
 
-.ruta-3 {
-    background: #F48C06;
-    height: 160px;
-    width: 468px;
-    border-radius: 8px;
+.box-1 .ruta-fyrkant {
+    width: 78px;
+    height: 78px;
 }
 
-.ruta-4 {
-    background: #F48C06;
-    height: 160px;
-    width: 468px;
-    border-radius: 8px;
+.box-1 {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-start;
+    gap: 20px;
+    padding-left: 19px;
+    padding-bottom: 19px;
 }
 
-.ruta-5 {
-    background: #F48C06;
-    height: 160px;
-    width: 468px;
-    border-radius: 8px;
+.box-2 .ruta-smal {
+    width: 78px;
+    height: 120px; 
 }
 
-.ruta-6 {
-    background: #F48C06;
-    height: 160px;
-    width: 468px;
-    border-radius: 8px;
+.box-2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.box-3 .ruta-fyrkant {
+    width: 78px;
+    height: 78px;
+}
+
+.box-3 {
+    display: flex;
+    gap: 20px;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 20px;
+}
+
+.box-4 .ruta {
+    width: 78px;
+    height: 78px;
+}
+
+.box-4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.box-4 .ruta-hoger {
+    align-self: flex-end;
+}
+
+.box-5 .ruta-smal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px;
+    width: 78px;
+    height: 120px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+        
+    
+}
+
+.box-5 .ruta-fyrkant {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 20px ;
+    width: 78px;
+    height: 64px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-size: 12px;
+    text-align: center;
+    
+    
+}
+
+.box-5 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.box-6 .ruta-bred {
+    width: 156px;
+    height: 78px;
+}
+
+.box-6 .ruta-fyrkant {
+    width: 78px;
+    height: 78px;
+}
+
+.box-6 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    justify-content: center;
 }

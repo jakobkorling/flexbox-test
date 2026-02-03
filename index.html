@@ -3,23 +3,51 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/styles.css">
     <title>flexbox-test</title>
 </head>
 <body>
-    <div class="bakgrund"> 
-        <div class="struktur"> <!--layout boxar-->
-            <div class="kolumn-vanster">
-                <div class="ruta-1"></div>
-                <div class="ruta-3"></div>
-                <div class="ruta-5"></div>
+    
+    <div class="bakgrund"> <!--bakgrunden-->
+        <div class="struktur"> <!--struktur boxar-->
+            <div class="kolumn-vanster"> <!--vänster kolumn-->
+                <div class="box box-1"> <!--orange box 1-->
+                    <div class="ruta ruta-fyrkant"></div><!--röda rutor i box-1-->
+                    <div class="ruta ruta-fyrkant"></div>
+                    <div class="ruta ruta-fyrkant"></div>
+                </div>
+                <div class="box box-3">
+                    <div class="ruta ruta-fyrkant"></div><!--röda rutor i box-3-->
+                    <div class="ruta ruta-fyrkant"></div>
+                    <div class="ruta ruta-fyrkant"></div>
+                </div>
+                <div class="box box-5">
+                    <div class="ruta ruta-smal">Some text</div><!--röda rutor i box-5-->
+                    <div class="ruta ruta-fyrkant">Some text</div>
+                    <div class="ruta ruta-smal">Some text</div>
+                </div>
             </div>
 
             <div class="kolumn-hoger">
-                <div class="ruta-2"></div>
-                <div class="ruta-4"></div>
-                <div class="ruta-6"></div>
+                <div class="box box-2">
+                    <div class="ruta ruta-smal"></div><!--röda rutor i box-2-->
+                    <div class="ruta ruta-smal"></div>
+                    <div class="ruta ruta-smal"></div>
+                </div>
+                <div class="box box-4">
+                    <div class="ruta ruta-fyrkant"></div><!--röda rutor i box-4-->
+                    <div class="ruta ruta-fyrkant"></div>
+                    <div class="ruta ruta-hoger"></div>
+                </div>
+                <div class="box box-6">
+                    <div class="ruta ruta-fyrkant"></div><!--röda rutor i box-6-->
+                    <div class="ruta ruta-bred"></div>
+                    <div class="ruta ruta-fyrkant"></div>
+                </div>
             </div>
         </div>
     </div>

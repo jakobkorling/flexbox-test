@@ -99,8 +99,6 @@
     color: white;
     font-size: 12px;
     text-align: center;
-        
-    
 }
 
 .box-5 .ruta-fyrkant {
@@ -113,16 +111,13 @@
     font-family: "Roboto", sans-serif;
     color: white;
     font-size: 12px;
-    text-align: center;
-    
-    
+    text-align: center; 
 }
 
 .box-5 {
     display: flex;
     align-items: center;
     justify-content: space-evenly;
-
 }
 
 .box-6 .ruta-bred {
